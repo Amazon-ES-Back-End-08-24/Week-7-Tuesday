@@ -12,7 +12,7 @@ public class Person {
     @Column(name = "person_name")
     private String name;
 
-    @Embedded // envevida, insertada
+    @Embedded // embebida, insertada
     private Address primaryAddress;
 
     @AttributeOverrides({

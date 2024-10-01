@@ -11,6 +11,6 @@ public class Business {
 
     private String logo;
 
-    @Embedded // envevida, insertada
+    @Embedded // embebida, insertada
     private Address address;
 }
